@@ -1,4 +1,18 @@
-body {
-    background: white;
-      color: black;
-  }
+ {  
+    opacity: 0.5;
+    height: 100px
+}
+
+
+/* colocasse a classe e com espaço e em seguida adciona o elemento "filho"(img) que está dentro da classe para modificar somente ele */
+
+
+.categoria-videos img:hover {
+    opacity: 1.0;
+    border: 2px solid rgb(255, 0, 0);
+}
+.episodios h2 {
+    color: rgb(255, 0, 0);
+
+
+}
